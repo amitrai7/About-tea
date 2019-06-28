@@ -1,0 +1,103 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+.title {
+    background-color: black;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+}
+
+ul {
+    display: inline-block;
+    text-align: end;
+}
+.title img {
+    margin: 10px;
+}
+li {
+    display: inline-block;
+    margin: auto 20px;
+    text-decoration: underline;
+}
+
+.tea {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    height: 700px;
+    width: 1200px;
+}
+
+
+.container {
+    text-align: center;
+    background-color: black;
+    position: absolute;
+    width: 1200px;
+    top: 50%;
+    font-size: 1.3rem;
+}
+
+.contain {
+    display:flex;
+    justify-content: space-around;
+}
+.main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#text {
+    text-align: center;
+}
+.main img {
+    height: 200px;
+    width: 300px;
+}
+
+.images {
+    display: inline-block;
+    
+}
+p {
+    margin-top: 10px;
+}
+.loc {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    height: 500px;
+    background-size: cover;
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    text-align: center;
+}
+.block {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 10px;
+}
+
+.add {
+    background-color: black;
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    margin: auto 40px;
+}
+.final{
+    position: relative;
+    top: 100px;
+}
+
+.end {
+    text-align: center;
+    height: 200px;
+}
