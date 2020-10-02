@@ -1,2 +1,2 @@
-# gittest
+# git-test
 first repository
